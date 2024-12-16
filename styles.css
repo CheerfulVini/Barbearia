@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 
+}
+
+.preto{
     background-color: black;
 }
 
@@ -62,6 +65,10 @@ img{
     height: 100%;
 }
 
+main{
+    background-color: black;
+}
+
 i{
     cursor : pointer;
 }
@@ -95,9 +102,14 @@ ul :hover{
     height: 100%;
 }
 
-p{
-    background-color: black;
+input{
+    background-color: aliceblue;
 }
+
+h3{
+    background-color: #accbf1;
+}
+
 
 main{
     background-color: black;
