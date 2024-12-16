@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     border: 0;
+
+    background-color: black;
 }
 
 .splash{
@@ -34,6 +36,10 @@
     display : none;
 }
 
+.bi .bi-person-circle{
+    background-color: #36682c;
+}
+
 header{
     background-color: #36682c;
     height: 100px;
@@ -44,6 +50,7 @@ header{
 
 header img{
     height: 75px;
+    background-color: #36682c;
 }
 
 
@@ -86,6 +93,10 @@ ul :hover{
 #foto1 div img{
     padding: 30px;
     height: 100%;
+}
+
+p{
+    background-color: black;
 }
 
 main{
