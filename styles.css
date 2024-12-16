@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.splash{
+    cursor : pointer;
+    position : fixed;
+    top : 50%;
+    left : 50%;
+    height : 100%;
+    width : 100%;
+    transform : translate(-50%,-50%);    
+    background-color: rgba(0,0,0);
+    transition : all ease-in-out 600ms;
+    justify-content: center;
+    align-items : center;
+    display: flex;
+}
+
+.splash-header {
+    height : 90%;
+    color : white;
+    font-family : consolas;
+    font-size : 30px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+
+.hidden{
+    transition : 0.5s;
+    display : none;
+}
+
+header{
+    background-color: #36682c;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    height: 75px;
+}
+
+
+img{
+    overflow: unset;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+}
+
+i{
+    cursor : pointer;
+}
+
+ul i{
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+ul :hover{
+    color: #accbf1;
+}
+
+.col1{width: calc(100%/12);}
+.col2{width: calc((100%/12) * 2)}
+.col3{width: calc((100%/12) * 3)}
+.col4{width: calc((100%/12) * 4)}
+.col5{width: calc((100%/12) * 5)}
+.col6{width: calc((100%/12) * 6)}
+.col7{width: calc((100%/12) * 7)}
+.col8{width: calc((100%/12) * 8)}
+.col9{width: calc((100%/12) * 9)}
+.col10{width: calc((100%/12) * 10)}
+.col11{width: calc((100%/12) * 11)}
+.col12{width: 100%}
+
+#foto1 div img{
+    padding: 30px;
+    height: 100%;
+}
+
+main{
+    background-color: black;
+}
+
+#barbeiro{
+    height: 50%;
+    overflow: hidden;
+}
+
+#foto1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#foto1 div{
+    width: 50%;
+}
+
+.splash img{
+    width: 75%;
+    height: auto;
+}
+
+#hamburger{
+    display: none;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    position: fixed;
+    right : 17.7%;
+    font-size: 30px;
+    background-color: rgb(0, 75, 0);
+    width: 50px;
+    color: white;
+}
+
+#hamburger i :hover{
+    color: #accbf1;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 10px;
+}
+
+p{
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#foto2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#foto2 div p{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#foto2 div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#foto2 div img{
+    width: 100%;
+}
+
+#review{
+    display: flex;
+    flex-direction: row;
+}
+
+#avaliacao{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#coisa{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#login{
+    background-color: grey;
+    border: 10px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: green;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3{
+    color: white;
+}
+
+.NPC{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#funcionarios{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 10px;
+}
+
+h2{
+    color: white;
+}
+
+#horarios{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#agendados{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+#feitos{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+main{
+    height: calc(100vh - 100px);
+}
+
+#horarios div{
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#feitos div{
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#agendar{
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) { 
+
+    #horarios{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #feitos{
+        width: calc(100% - 40px);
+    }
+
+    #agendados{
+        width: calc(100% - 40px);
+    }
+
+    #foto2{
+        width: 100%;
+    }
+
+    #foto2 div{
+        width: 100%;
+    }
+
+    #foto2 div img{
+        width: 100%;
+    }
+
+    #review{
+        flex-direction: column;
+    }
+
+    #foto1{
+        flex-direction: column;
+    }
+
+    #foto1 div{
+        width: 100%;
+    }
+
+    p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #hamburger{
+        right : 2%;
+    }
+
+    #foto2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #foto2 div p{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #foto2 div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #foto2 div img{
+        width: 100%;
+    }
+    
+    #review{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #avaliacao{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login{
+        width: 100%;
+        height: 50%;
+        justify-content: space-around;
+    }
+
+    .NPC{
+        width: 100%;
+    }
+
+    #funcionarios{
+        flex-direction: column;
+    }
+}
